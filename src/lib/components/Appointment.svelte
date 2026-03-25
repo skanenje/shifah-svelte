@@ -21,8 +21,10 @@
 		<div class="bg-white/95 backdrop-blur-md rounded-2xl p-8 md:p-12 shadow-2xl">
 			<form class="grid grid-cols-1 md:grid-cols-2 gap-6">
 				<div class="space-y-1">
-					<label class="text-xs font-bold text-outline uppercase tracking-widest px-1">Full Name</label>
+					<label for="fullname" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Full Name</label>
 					<input 
+						id="fullname"
+						name="fullname"
 						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" 
 						placeholder="John Doe" 
 						type="text"
@@ -30,8 +32,10 @@
 				</div>
 				
 				<div class="space-y-1">
-					<label class="text-xs font-bold text-outline uppercase tracking-widest px-1">Phone Number</label>
+					<label for="phone" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Phone Number</label>
 					<input 
+						id="phone"
+						name="phone"
 						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" 
 						placeholder="+254 700 000 000" 
 						type="tel"
@@ -39,8 +43,10 @@
 				</div>
 				
 				<div class="space-y-1">
-					<label class="text-xs font-bold text-outline uppercase tracking-widest px-1">Email Address</label>
+					<label for="email" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Email Address</label>
 					<input 
+						id="email"
+						name="email"
 						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" 
 						placeholder="john@example.com" 
 						type="email"
@@ -48,16 +54,18 @@
 				</div>
 				
 				<div class="space-y-1">
-					<label class="text-xs font-bold text-outline uppercase tracking-widest px-1">Preferred Date</label>
+					<label for="date" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Preferred Date</label>
 					<input 
+						id="date"
+						name="date"
 						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" 
 						type="date"
 					/>
 				</div>
 				
 				<div class="space-y-1 md:col-span-2">
-					<label class="text-xs font-bold text-outline uppercase tracking-widest px-1">Service Required</label>
-					<select class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none">
+					<label for="service" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Service Required</label>
+					<select id="service" name="service" class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none">
 						<option>General Consultation</option>
 						<option>Dialysis Services</option>
 						<option>Maternity Care</option>
@@ -68,8 +76,10 @@
 				</div>
 				
 				<div class="space-y-1 md:col-span-2">
-					<label class="text-xs font-bold text-outline uppercase tracking-widest px-1">Additional Notes</label>
+					<label for="notes" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Additional Notes</label>
 					<textarea 
+						id="notes"
+						name="notes"
 						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none resize-none" 
 						placeholder="Any specific concerns or requirements..." 
 						rows="3"

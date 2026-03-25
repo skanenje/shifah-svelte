@@ -60,8 +60,10 @@
 				
 				<form class="space-y-6">
 					<div class="space-y-1">
-						<label class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Full Name</label>
+						<label for="contact-name" class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Full Name</label>
 						<input 
+							id="contact-name"
+							name="name"
 							class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 focus:bg-white transition-all outline-none" 
 							placeholder="John Doe" 
 							type="text"
@@ -69,8 +71,10 @@
 					</div>
 					
 					<div class="space-y-1">
-						<label class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Email Address</label>
+						<label for="contact-email" class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Email Address</label>
 						<input 
+							id="contact-email"
+							name="email"
 							class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 focus:bg-white transition-all outline-none" 
 							placeholder="john@example.com" 
 							type="email"
@@ -78,8 +82,8 @@
 					</div>
 					
 					<div class="space-y-1">
-						<label class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Subject</label>
-						<select class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 focus:bg-white transition-all outline-none">
+						<label for="contact-subject" class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Subject</label>
+						<select id="contact-subject" name="subject" class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 focus:bg-white transition-all outline-none">
 							<option>General Inquiry</option>
 							<option>Dialysis Services</option>
 							<option>Laboratory Results</option>
@@ -88,8 +92,10 @@
 					</div>
 					
 					<div class="space-y-1">
-						<label class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Message</label>
+						<label for="contact-message" class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Message</label>
 						<textarea 
+							id="contact-message"
+							name="message"
 							class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 focus:bg-white transition-all outline-none resize-none" 
 							placeholder="How can we help you?" 
 							rows="4"
