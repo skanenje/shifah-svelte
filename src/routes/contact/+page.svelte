@@ -19,7 +19,7 @@
 					Compassionate care,<br/>conveniently located.
 				</h1>
 				<p class="text-lg text-on-surface-variant max-w-lg leading-relaxed">
-					Find us in the heart of Kiminini. Our doors never close, ensuring you have access to specialized dialysis and emergency care whenever you need it.
+					Find us in the heart of Kitale Town. Our doors never close, ensuring you have access to specialized dialysis and emergency care whenever you need it.
 				</p>
 			</div>
 			<div class="hidden lg:flex justify-end pb-4">

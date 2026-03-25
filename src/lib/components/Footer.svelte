@@ -19,8 +19,9 @@
 		<div>
 			<h5 class="font-bold text-primary-container mb-4">Quick Links</h5>
 			<ul class="space-y-2 text-slate-500">
-				<li><a class="hover:text-primary-container transition-colors" href="/services">Services</a></li>
-				<li><a class="hover:text-primary-container transition-colors" href="/contact">Contact Us</a></li>
+				<li><a class="hover:text-primary-container transition-colors" href="#services">Services</a></li>
+				<li><a class="hover:text-primary-container transition-colors" href="#contact">Contact Us</a></li>
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<li><a class="hover:text-primary-container transition-colors" href="#">Privacy Policy</a></li>
 			</ul>
 		</div>
@@ -30,6 +31,7 @@
 			<p class="text-slate-500 text-xs mb-3">📧 info@shifahhospitalktl.co.ke</p>
 			<p class="text-slate-500 text-xs mb-3">📧 shifahhospitalannexlimited@gmail.com</p>
 			<div class="flex gap-3 mt-4">
+				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#" class="w-8 h-8 rounded-full bg-primary-container/10 flex items-center justify-center hover:bg-primary-container/20 transition-colors">
 					<span class="material-symbols-outlined text-primary-container text-sm">language</span>
 				</a>

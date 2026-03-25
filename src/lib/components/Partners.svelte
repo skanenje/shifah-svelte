@@ -5,11 +5,11 @@
 		<div class="flex flex-wrap justify-center items-center gap-12 opacity-60">
 			<div class="flex items-center gap-2">
 				<span class="material-symbols-outlined text-primary text-3xl">health_and_safety</span>
-				<span class="font-headline font-bold text-lg">Ministry of Health</span>
+				<span class="font-headline font-bold text-lg">MOH</span>
 			</div>
 			<div class="flex items-center gap-2">
 				<span class="material-symbols-outlined text-primary text-3xl">verified</span>
-				<span class="font-headline font-bold text-lg">NHIF</span>
+				<span class="font-headline font-bold text-lg">SHA</span>
 			</div>
 			<div class="flex items-center gap-2">
 				<span class="material-symbols-outlined text-primary text-3xl">public</span>

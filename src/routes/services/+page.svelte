@@ -51,7 +51,7 @@
 	<!-- Floating Action for Mobile -->
 	<div class="fixed bottom-8 right-8 z-40 lg:hidden">
 		<a 
-			href="/contact"
+			href="#contact"
 			class="w-14 h-14 rounded-full bg-primary text-white shadow-2xl flex items-center justify-center transition-transform active:scale-90"
 		>
 			<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">add_call</span>
