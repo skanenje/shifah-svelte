@@ -10,16 +10,16 @@
 				<!-- Capacity Grid -->
 				<div class="grid grid-cols-1 sm:grid-cols-3 gap-8">
 					<div class="flex flex-col">
-						<span class="text-5xl font-headline font-extrabold text-primary mb-2">45</span>
+						<span class="text-5xl font-headline font-extrabold text-primary mb-2">15</span>
 						<span class="text-xs font-bold font-label text-on-surface-variant tracking-wider uppercase">In-patient Beds</span>
 					</div>
 					<div class="flex flex-col">
-						<span class="text-5xl font-headline font-extrabold text-primary mb-2">12</span>
-						<span class="text-xs font-bold font-label text-on-surface-variant tracking-wider uppercase">Maternity Beds</span>
+						<span class="text-5xl font-headline font-extrabold text-primary mb-2">4+1</span>
+						<span class="text-xs font-bold font-label text-on-surface-variant tracking-wider uppercase">Maternity Beds + Cot</span>
 					</div>
 					<div class="flex flex-col">
-						<span class="text-5xl font-headline font-extrabold text-primary mb-2">08</span>
-						<span class="text-xs font-bold font-label text-on-surface-variant tracking-wider uppercase">Casualty Units</span>
+						<span class="text-5xl font-headline font-extrabold text-primary mb-2">01</span>
+						<span class="text-xs font-bold font-label text-on-surface-variant tracking-wider uppercase">Emergency Bay</span>
 					</div>
 				</div>
 			</div>

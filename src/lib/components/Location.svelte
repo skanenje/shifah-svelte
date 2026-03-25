@@ -12,10 +12,10 @@
 				
 				<!-- Map Overlay Label -->
 				<div class="absolute top-6 left-6 p-6 bg-white/90 backdrop-blur-md rounded-xl shadow-2xl max-w-xs">
-					<h3 class="font-headline font-bold text-primary text-xl mb-2">Hospital Ward</h3>
-					<p class="text-sm text-on-surface-variant leading-relaxed">Situated along Kapenguria Kitale Road, next to Makunga Primary School.</p>
+					<h3 class="font-headline font-bold text-primary text-xl mb-2">Main Hospital</h3>
+					<p class="text-sm text-on-surface-variant leading-relaxed">Opposite Makunga Sec School, Kitale-Kapenguria road</p>
 					<div class="mt-4 flex items-center gap-2 text-primary font-bold text-sm group-hover:gap-4 transition-all cursor-pointer">
-						<span>Get live directions</span>
+						<span>Get directions</span>
 						<span class="material-symbols-outlined text-sm">arrow_forward</span>
 					</div>
 				</div>
@@ -35,19 +35,20 @@
 			<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
 				<div class="bg-surface-container-low p-8 rounded-xl">
 					<span class="material-symbols-outlined text-primary mb-4" style="font-variation-settings: 'FILL' 1;">schedule</span>
-					<h4 class="font-headline font-bold text-lg mb-2">Always Available</h4>
-					<p class="text-sm text-on-surface-variant">Open 24 hours daily, including weekends and late night emergencies.</p>
+					<h4 class="font-headline font-bold text-lg mb-2">Open 24/7</h4>
+					<p class="text-sm text-on-surface-variant">Round-the-clock emergency care and dialysis services available every day.</p>
 				</div>
 				<div class="bg-surface-container-low p-8 rounded-xl">
 					<span class="material-symbols-outlined text-primary mb-4" style="font-variation-settings: 'FILL' 1;">call</span>
-					<h4 class="font-headline font-bold text-lg mb-2">Direct Line</h4>
-					<p class="text-sm text-on-surface-variant font-medium">+254-20-2717077</p>
-					<p class="text-xs text-outline mt-1">Emergency & General Inquiries</p>
+					<h4 class="font-headline font-bold text-lg mb-2">Main Hospital</h4>
+					<p class="text-sm text-on-surface-variant font-medium">0718 009 458</p>
+					<p class="text-xs text-outline mt-1">24/7 Emergency & Dialysis</p>
 				</div>
 				<div class="bg-surface-container-low p-8 rounded-xl">
-					<span class="material-symbols-outlined text-primary mb-4" style="font-variation-settings: 'FILL' 1;">patient_list</span>
-					<h4 class="font-headline font-bold text-lg mb-2">Patient Portal</h4>
-					<p class="text-sm text-on-surface-variant">Access your medical records and lab results online 24/7.</p>
+					<span class="material-symbols-outlined text-primary mb-4" style="font-variation-settings: 'FILL' 1;">call</span>
+					<h4 class="font-headline font-bold text-lg mb-2">Town Clinic</h4>
+					<p class="text-sm text-on-surface-variant font-medium">0792 327 495</p>
+					<p class="text-xs text-outline mt-1">Outpatient Services</p>
 				</div>
 			</div>
 		</div>
@@ -113,12 +114,13 @@
 				<div class="mt-8 pt-8 border-t border-outline-variant/15 text-center">
 					<p class="text-xs text-outline font-medium mb-4">FOR EMERGENCIES CALL IMMEDIATELY</p>
 					<a 
-						class="text-xl font-headline font-extrabold text-primary flex items-center justify-center gap-2" 
-						href="tel:+254202717077"
+						class="text-xl font-headline font-extrabold text-primary flex items-center justify-center gap-2 mb-3" 
+						href="tel:+254718009458"
 					>
 						<span class="material-symbols-outlined">emergency</span>
-						+254-20-2717077
+						0718 009 458
 					</a>
+					<p class="text-xs text-on-surface-variant">Main Hospital - 24/7 Service</p>
 				</div>
 			</div>
 		</div>
