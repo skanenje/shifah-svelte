@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
+	import { resolve } from '$app/paths';
 
 	let isOpen = $state(false);
 
@@ -23,7 +24,7 @@
 <nav class="fixed top-0 w-full z-50 bg-surface/80 glass-nav border-b border-outline-variant/10">
 	<div class="max-w-7xl mx-auto flex justify-between items-center px-6 md:px-8 py-4">
 		<!-- Logo -->
-		<a href="/" class="text-2xl font-bold text-primary-container tracking-tighter font-headline">
+		<a href={resolve('/')} class="text-2xl font-bold text-primary-container tracking-tighter font-headline">
 			Shifah Hospital
 		</a>
 
@@ -31,7 +32,7 @@
 		<div class="hidden md:flex items-center gap-8 font-headline font-semibold tracking-tight">
 			{#each navLinks as link (link.href)}
 				<a
-					href={link.href}
+					href={resolve(link.href as '/' | '/services' | '/contact')}
 					class="transition-colors duration-200 pb-1 {isActive(link.href)
 						? 'text-primary-container border-b-2 border-primary-container'
 						: 'text-slate-600 hover:text-primary-container'}"
@@ -64,7 +65,7 @@
 		<div class="md:hidden bg-surface/95 px-6 pb-6 border-t border-outline-variant/10 space-y-4">
 			{#each navLinks as link (link.href)}
 				<a
-					href={link.href}
+					href={resolve(link.href as '/' | '/services' | '/contact')}
 					onclick={() => (isOpen = false)}
 					class="block font-headline font-semibold py-2 transition-colors {isActive(link.href)
 						? 'text-primary-container'
