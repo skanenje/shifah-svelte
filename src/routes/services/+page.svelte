@@ -43,14 +43,10 @@
 	</section>
 
 	<!-- Services Bento Grid -->
-	<div id="services">
-		<Services />
-	</div>
+	<Services />
 
 	<!-- Bed Capacity & Facilities -->
-	<div id="facilities">
-		<Facilities />
-	</div>
+	<Facilities />
 
 	<!-- Floating Action for Mobile -->
 	<div class="fixed bottom-8 right-8 z-40 lg:hidden">

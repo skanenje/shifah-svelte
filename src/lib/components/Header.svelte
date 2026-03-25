@@ -5,32 +5,31 @@
 
 	const navLinks = [
 		{ label: 'Home', href: '/' },
-		{ label: 'Services', href: '/services#services' },
-		{ label: 'Facilities', href: '/services#facilities' },
-		{ label: 'Contact', href: '/contact#contact' },
-		{ label: 'Location', href: '/contact#location' }
+		{ label: 'Services', href: '/services' },
+		{ label: 'Facilities', href: '/services' },
+		{ label: 'Contact', href: '/contact' },
+		{ label: 'Location', href: '/contact' }
 	];
 
-	function isActive(href: string) {
+	function isActive(href: string, label: string) {
 		const currentPath = page.url.pathname;
-		const currentHash = page.url.hash;
 		
-		// For home page
-		if (href === '/') return currentPath === '/';
-		
-		// Split href into path and hash
-		const [linkPath, linkHash] = href.split('#');
-		
-		// Check if we're on the same page
-		if (currentPath !== linkPath) return false;
-		
-		// If link has a hash, check if it matches current hash
-		if (linkHash) {
-			return currentHash === `#${linkHash}`;
+		// Home page - only highlight "Home"
+		if (currentPath === '/') {
+			return href === '/' && label === 'Home';
 		}
 		
-		// If link has no hash, only active if current page also has no hash
-		return !currentHash;
+		// Services page - highlight both "Services" and "Facilities"
+		if (currentPath === '/services') {
+			return href === '/services' && (label === 'Services' || label === 'Facilities');
+		}
+		
+		// Contact page - highlight both "Contact" and "Location"
+		if (currentPath === '/contact') {
+			return href === '/contact' && (label === 'Contact' || label === 'Location');
+		}
+		
+		return false;
 	}
 </script>
 
@@ -46,7 +45,7 @@
 			{#each navLinks as link}
 				<a
 					href={link.href}
-					class="transition-colors duration-200 pb-1 {isActive(link.href)
+					class="transition-colors duration-200 pb-1 {isActive(link.href, link.label)
 						? 'text-primary-container border-b-2 border-primary-container'
 						: 'text-slate-600 hover:text-primary-container'}"
 				>
@@ -80,7 +79,7 @@
 				<a
 					href={link.href}
 					onclick={() => (isOpen = false)}
-					class="block font-headline font-semibold py-2 transition-colors {isActive(link.href)
+					class="block font-headline font-semibold py-2 transition-colors {isActive(link.href, link.label)
 						? 'text-primary-container'
 						: 'text-slate-600 hover:text-primary-container'}"
 				>
