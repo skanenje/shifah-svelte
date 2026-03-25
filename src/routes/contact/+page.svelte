@@ -9,7 +9,7 @@
 
 <main class="pt-24 pb-20">
 	<!-- Hero Section -->
-	<header class="max-w-7xl mx-auto px-8 mb-16">
+	<header id="contact" class="max-w-7xl mx-auto px-8 mb-16">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-end">
 			<div>
 				<span class="inline-block px-3 py-1 bg-secondary-container text-on-secondary-container rounded-full text-[10px] font-bold tracking-widest uppercase mb-4">
@@ -41,5 +41,7 @@
 	</header>
 
 	<!-- Main Content: Map & Info -->
-	<Location />
+	<div id="location">
+		<Location />
+	</div>
 </main>

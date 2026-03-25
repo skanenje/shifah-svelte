@@ -5,15 +5,32 @@
 
 	const navLinks = [
 		{ label: 'Home', href: '/' },
-		{ label: 'Services', href: '/services' },
-		{ label: 'Facilities', href: '/services' },
-		{ label: 'Contact', href: '/contact' },
-		{ label: 'Location', href: '/contact' }
+		{ label: 'Services', href: '/services#services' },
+		{ label: 'Facilities', href: '/services#facilities' },
+		{ label: 'Contact', href: '/contact#contact' },
+		{ label: 'Location', href: '/contact#location' }
 	];
 
 	function isActive(href: string) {
-		if (href === '/') return page.url.pathname === '/';
-		return page.url.pathname.startsWith(href);
+		const currentPath = page.url.pathname;
+		const currentHash = page.url.hash;
+		
+		// For home page
+		if (href === '/') return currentPath === '/';
+		
+		// Split href into path and hash
+		const [linkPath, linkHash] = href.split('#');
+		
+		// Check if we're on the same page
+		if (currentPath !== linkPath) return false;
+		
+		// If link has a hash, check if it matches current hash
+		if (linkHash) {
+			return currentHash === `#${linkHash}`;
+		}
+		
+		// If link has no hash, only active if current page also has no hash
+		return !currentHash;
 	}
 </script>
 
