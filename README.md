@@ -4,14 +4,14 @@ A modern, responsive website for Shifah Hospital built with SvelteKit and Tailwi
 
 ## Features
 
-- 🏥 Modern Material Design 3 aesthetic
-- 📱 Fully responsive design
-- ⚡ Fast SvelteKit-powered navigation
-- 🎨 Custom design tokens matching hospital branding
-- 🗺️ Interactive location map
-- 📋 Appointment booking form
-- 👨‍⚕️ Medical team showcase
-- 🏗️ Bento grid layouts for services
+-  Modern Material Design 3 aesthetic
+-  Fully responsive design
+-  Fast SvelteKit-powered navigation
+-  Custom design tokens matching hospital branding
+-  Interactive location map
+-  Appointment booking form
+-  Medical team showcase
+-  Bento grid layouts for services
 
 ## Pages
 
