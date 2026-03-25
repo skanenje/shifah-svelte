@@ -22,13 +22,13 @@
 			</p>
 			<div class="flex flex-wrap gap-4">
 				<a
-					href="/contact"
+					href="#contact"
 					class="bg-linear-to-r from-primary to-primary-container text-on-primary px-8 py-4 rounded-xl font-headline font-bold text-lg shadow-xl shadow-primary/10 hover:shadow-primary/20 transition-all active:scale-95"
 				>
 					Book a Consultation
 				</a>
 				<a
-					href="/services"
+					href="#services"
 					class="bg-surface-container-highest text-on-surface px-8 py-4 rounded-xl font-headline font-bold text-lg hover:bg-surface-container-high transition-all"
 				>
 					Our Services
@@ -38,7 +38,7 @@
 
 		<!-- Right: Image + floating stat -->
 		<div class="lg:col-span-5 relative">
-			<div class="relative rounded-[2.5rem] overflow-hidden aspect-[4/5] shadow-2xl">
+			<div class="relative rounded-[2.5rem] overflow-hidden aspect-4/5 shadow-2xl">
 				<img
 					src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5uBfvegGulJDamUn_aUEjFLqJVnLo_LCfc2XuUeMQhF9knzWJMY4p1fM5-nQFeRO6dHqQAKb9aGAPtKBPpKPbhmh-BxF6mv3SATlHPZdUcUSX_K9jJQ5m9F5pJxmlM4TrmZBV0DEavyRf5COFVo690Y5wjfyOcnDVq8z8ik4uBMSl-XrIoJAP0rshXfSExJlw4kho-6xVKTu8QQH1kcOPh6YRl5gPk8TrcuWly_gSQWPL4Fwjhgv1zdHnq-ZGsReT6-yDdNzIzHP_"
 					alt="Modern hospital lobby with warm natural lighting"
@@ -48,7 +48,7 @@
 					width="800"
 					height="1000"
 				/>
-				<div class="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
+				<div class="absolute inset-0 bg-linear-to-t from-primary/20 to-transparent"></div>
 			</div>
 
 			<!-- Floating Stat Card -->
@@ -72,6 +72,6 @@
 
 	<!-- Background decorative shape -->
 	<div
-		class="absolute top-0 right-0 w-1/3 h-full bg-surface-container-low -z-0 rounded-l-[10rem]"
+		class="absolute top-0 right-0 w-1/3 h-full bg-surface-container-low z-0 rounded-l-[10rem]"
 	></div>
 </section>

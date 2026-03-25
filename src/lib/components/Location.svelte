@@ -3,7 +3,7 @@
 	<div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
 		<!-- Map Area (Bento Layout) -->
 		<div class="lg:col-span-8 space-y-8">
-			<div class="relative w-full aspect-[16/10] lg:aspect-auto lg:h-[600px] rounded-xl overflow-hidden bg-surface-container-low group">
+			<div class="relative w-full aspect-16/10 lg:aspect-auto lg:h-[600px] rounded-xl overflow-hidden bg-surface-container-low group">
 				<img 
 					class="w-full h-full object-cover map-grayscale transition-transform duration-700 group-hover:scale-105" 
 					alt="Map of Kiminini showing hospital location"

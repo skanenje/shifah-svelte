@@ -12,8 +12,8 @@
 	
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
 		<div class="bg-surface-container-lowest rounded-xl overflow-hidden group hover:shadow-xl transition-all">
-			<div class="aspect-[3/4] bg-surface-container-low relative overflow-hidden">
-				<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+			<div class="aspect-3/4 bg-surface-container-low relative overflow-hidden">
+				<div class="absolute inset-0 bg-linear-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
 				<div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
 					<p class="text-sm">Specializing in nephrology and dialysis care with over 15 years of experience.</p>
 				</div>
@@ -29,8 +29,8 @@
 		</div>
 		
 		<div class="bg-surface-container-lowest rounded-xl overflow-hidden group hover:shadow-xl transition-all">
-			<div class="aspect-[3/4] bg-surface-container-low relative overflow-hidden">
-				<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+			<div class="aspect-3/4 bg-surface-container-low relative overflow-hidden">
+				<div class="absolute inset-0 bg-linear-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
 				<div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
 					<p class="text-sm">Expert in emergency medicine and trauma care, leading our 24/7 emergency department.</p>
 				</div>
@@ -46,8 +46,8 @@
 		</div>
 		
 		<div class="bg-surface-container-lowest rounded-xl overflow-hidden group hover:shadow-xl transition-all">
-			<div class="aspect-[3/4] bg-surface-container-low relative overflow-hidden">
-				<div class="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+			<div class="aspect-3/4 bg-surface-container-low relative overflow-hidden">
+				<div class="absolute inset-0 bg-linear-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
 				<div class="absolute bottom-0 left-0 right-0 p-6 text-white opacity-0 group-hover:opacity-100 transition-opacity">
 					<p class="text-sm">Dedicated to maternal and child health with compassionate prenatal and postnatal care.</p>
 				</div>

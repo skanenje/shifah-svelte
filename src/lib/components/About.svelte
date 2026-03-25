@@ -37,7 +37,7 @@
 		</div>
 		
 		<div class="relative">
-			<div class="rounded-[2rem] overflow-hidden shadow-2xl">
+			<div class="rounded-4xl overflow-hidden shadow-2xl">
 				<img 
 					src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPGRIJsaEeweJJBKmpsks2ABbLOEATHJv8rB_I9T5_eg13jUird5rIw5_kCDeztM8exZO_vInlqGBZKfqH1TUnzSMlW-r1VV3E1t2IBlzKOXfK_L40_TiRtEGAGo6NAEf_n5U9AI6p9NnE-0pwFVqvql_grHh011QXNzNetdLHVqBHx_2Rk2fjb-H4T6Dljj07-LK9FCrREFSp4_bfLJ_U-ooEfpP8hCg9iBV9UlHOUe9uMYmiDR3qFjRMwgNwnI0kCxcSg18Z_hON"
 					alt="Hospital hallway with modern facilities"
