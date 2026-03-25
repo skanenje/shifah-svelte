@@ -31,7 +31,7 @@
 				<div class="flex flex-wrap gap-4">
 					<div class="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10">
 						<span class="material-symbols-outlined text-primary-fixed" style="font-variation-settings: 'FILL' 1;">verified</span>
-						<span class="text-white font-medium">NHIF Accredited</span>
+						<span class="text-white font-medium">SHA Accredited</span>
 					</div>
 					<div class="flex items-center gap-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10">
 						<span class="material-symbols-outlined text-primary-fixed" style="font-variation-settings: 'FILL' 1;">schedule</span>

@@ -3,7 +3,7 @@
 	import Partners    from '$lib/components/Partners.svelte';
 	import About       from '$lib/components/About.svelte';
 	import Services    from '$lib/components/Services.svelte';
-	import Doctors     from '$lib/components/Doctors.svelte';
+	// import Doctors     from '$lib/components/Doctors.svelte';
 	import Appointment from '$lib/components/Appointment.svelte';
 </script>
 
@@ -25,7 +25,7 @@
 <Services />
 
 <!-- Doctors section -->
-<Doctors />
+<!-- <Doctors /> -->
 
 <!-- Appointment booking form -->
 <Appointment />

@@ -123,7 +123,7 @@
 						<span class="material-symbols-outlined text-5xl" style="font-variation-settings: 'FILL' 1;">apartment</span>
 						<div>
 							<h3 class="text-3xl font-headline font-extrabold">Town Clinic</h3>
-							<p class="text-on-secondary-container text-sm">Kitale Town - Outpatient Services</p>
+							<p class="text-white text-sm">Kitale Town - Outpatient Services</p>
 						</div>
 					</div>
 					<div class="flex items-center gap-2 mt-4">
