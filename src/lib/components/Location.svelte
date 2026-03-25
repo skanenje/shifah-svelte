@@ -57,59 +57,41 @@
 		<div class="lg:col-span-4">
 			<div class="bg-surface-container-lowest p-8 rounded-xl shadow-[0_20px_40px_rgba(28,27,28,0.06)] sticky top-28">
 				<h2 class="font-headline font-bold text-2xl text-primary mb-2">Send an Inquiry</h2>
-				<p class="text-sm text-on-surface-variant mb-8">We aim to respond to all non-emergency messages within 2 hours.</p>
+				<p class="text-sm text-on-surface-variant mb-8">Click below to send us an email directly from your email client.</p>
 				
-				<form class="space-y-6">
-					<div class="space-y-1">
-						<label for="contact-name" class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Full Name</label>
-						<input 
-							id="contact-name"
-							name="name"
-							class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 focus:bg-white transition-all outline-none" 
-							placeholder="John Doe" 
-							type="text"
-						/>
-					</div>
-					
-					<div class="space-y-1">
-						<label for="contact-email" class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Email Address</label>
-						<input 
-							id="contact-email"
-							name="email"
-							class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 focus:bg-white transition-all outline-none" 
-							placeholder="john@example.com" 
-							type="email"
-						/>
-					</div>
-					
-					<div class="space-y-1">
-						<label for="contact-subject" class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Subject</label>
-						<select id="contact-subject" name="subject" class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 focus:bg-white transition-all outline-none">
-							<option>General Inquiry</option>
-							<option>Dialysis Services</option>
-							<option>Laboratory Results</option>
-							<option>Billing & Insurance</option>
-						</select>
-					</div>
-					
-					<div class="space-y-1">
-						<label for="contact-message" class="text-[10px] font-bold text-outline uppercase tracking-widest px-1">Message</label>
-						<textarea 
-							id="contact-message"
-							name="message"
-							class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 focus:bg-white transition-all outline-none resize-none" 
-							placeholder="How can we help you?" 
-							rows="4"
-						></textarea>
-					</div>
-					
-					<button 
-						class="w-full bg-primary text-white py-4 rounded-xl font-headline font-bold hover:bg-primary-container transition-all shadow-lg shadow-primary/20" 
-						type="submit"
+				<div class="space-y-4">
+					<a 
+						href="mailto:info@shifahhospitalktl.co.ke?subject=General Inquiry from Website"
+						class="w-full bg-primary text-white py-4 px-6 rounded-xl font-headline font-bold hover:bg-primary-container transition-all shadow-lg shadow-primary/20 flex items-center justify-center gap-2"
 					>
-						Submit Inquiry
-					</button>
-				</form>
+						<span class="material-symbols-outlined">email</span>
+						Email Main Hospital
+					</a>
+					
+					<a 
+						href="mailto:shifahhospitalannexlimited@gmail.com?subject=Town Clinic Inquiry from Website"
+						class="w-full bg-secondary text-white py-4 px-6 rounded-xl font-headline font-bold hover:bg-secondary/90 transition-all shadow-lg flex items-center justify-center gap-2"
+					>
+						<span class="material-symbols-outlined">email</span>
+						Email Town Clinic
+					</a>
+				</div>
+				
+				<div class="mt-6 p-4 bg-surface-container-low rounded-lg">
+					<p class="text-xs text-on-surface-variant mb-2">Or contact us directly:</p>
+					<div class="space-y-2">
+						<div class="flex items-center gap-2">
+							<span class="material-symbols-outlined text-primary text-sm">call</span>
+							<a href="tel:+254718009458" class="text-sm font-medium text-primary hover:underline">0718 009 458</a>
+							<span class="text-xs text-outline">(Main)</span>
+						</div>
+						<div class="flex items-center gap-2">
+							<span class="material-symbols-outlined text-primary text-sm">call</span>
+							<a href="tel:+254792327495" class="text-sm font-medium text-primary hover:underline">0792 327 495</a>
+							<span class="text-xs text-outline">(Town Clinic)</span>
+						</div>
+					</div>
+				</div>
 				
 				<div class="mt-8 pt-8 border-t border-outline-variant/15 text-center">
 					<p class="text-xs text-outline font-medium mb-4">FOR EMERGENCIES CALL IMMEDIATELY</p>

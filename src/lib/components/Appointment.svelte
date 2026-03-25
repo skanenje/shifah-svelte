@@ -14,93 +14,70 @@
 				Ready to Prioritize Your Health?
 			</h2>
 			<p class="text-white/90 text-lg max-w-2xl mx-auto">
-				Speak with our experienced medical team today. Whether it's a routine checkup or specialized care, we are here for you.
+				Contact us today to book an appointment. Whether it's a routine checkup or specialized care, we are here for you.
 			</p>
 		</div>
 		
 		<div class="bg-white/95 backdrop-blur-md rounded-2xl p-8 md:p-12 shadow-2xl">
-			<form class="grid grid-cols-1 md:grid-cols-2 gap-6">
-				<div class="space-y-1">
-					<label for="fullname" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Full Name</label>
-					<input 
-						id="fullname"
-						name="fullname"
-						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" 
-						placeholder="John Doe" 
-						type="text"
-					/>
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+				<!-- Main Hospital Appointment -->
+				<div class="bg-surface-container-low p-8 rounded-xl">
+					<div class="flex items-center gap-3 mb-4">
+						<span class="material-symbols-outlined text-primary text-3xl">local_hospital</span>
+						<h3 class="font-headline font-bold text-xl text-primary">Main Hospital</h3>
+					</div>
+					<p class="text-on-surface-variant mb-6">For dialysis, maternity, surgery, and emergency services</p>
+					<div class="space-y-3">
+						<a 
+							href="tel:+254718009458"
+							class="w-full bg-primary text-white py-3 px-6 rounded-xl font-headline font-bold hover:bg-primary/90 transition-all flex items-center justify-center gap-2"
+						>
+							<span class="material-symbols-outlined">call</span>
+							Call: 0718 009 458
+						</a>
+						<a 
+							href="mailto:info@shifahhospitalktl.co.ke?subject=Appointment Request - Main Hospital&body=Hello,%0D%0A%0D%0AI would like to book an appointment.%0D%0A%0D%0AName:%0D%0APhone:%0D%0APreferred Date:%0D%0AService Required:%0D%0A%0D%0AThank you."
+							class="w-full bg-secondary text-white py-3 px-6 rounded-xl font-headline font-bold hover:bg-secondary/90 transition-all flex items-center justify-center gap-2"
+						>
+							<span class="material-symbols-outlined">email</span>
+							Email Us
+						</a>
+					</div>
+					<p class="text-xs text-on-surface-variant mt-4 text-center">Open 24/7</p>
 				</div>
 				
-				<div class="space-y-1">
-					<label for="phone" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Phone Number</label>
-					<input 
-						id="phone"
-						name="phone"
-						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" 
-						placeholder="+254 700 000 000" 
-						type="tel"
-					/>
+				<!-- Town Clinic Appointment -->
+				<div class="bg-surface-container-low p-8 rounded-xl">
+					<div class="flex items-center gap-3 mb-4">
+						<span class="material-symbols-outlined text-primary text-3xl">apartment</span>
+						<h3 class="font-headline font-bold text-xl text-primary">Town Clinic</h3>
+					</div>
+					<p class="text-on-surface-variant mb-6">For outpatient services, ultrasound, and physiotherapy</p>
+					<div class="space-y-3">
+						<a 
+							href="tel:+254792327495"
+							class="w-full bg-primary text-white py-3 px-6 rounded-xl font-headline font-bold hover:bg-primary/90 transition-all flex items-center justify-center gap-2"
+						>
+							<span class="material-symbols-outlined">call</span>
+							Call: 0792 327 495
+						</a>
+						<a 
+							href="mailto:shifahhospitalannexlimited@gmail.com?subject=Appointment Request - Town Clinic&body=Hello,%0D%0A%0D%0AI would like to book an appointment at the Town Clinic.%0D%0A%0D%0AName:%0D%0APhone:%0D%0APreferred Date:%0D%0AService Required:%0D%0A%0D%0AThank you."
+							class="w-full bg-secondary text-white py-3 px-6 rounded-xl font-headline font-bold hover:bg-secondary/90 transition-all flex items-center justify-center gap-2"
+						>
+							<span class="material-symbols-outlined">email</span>
+							Email Us
+						</a>
+					</div>
+					<p class="text-xs text-on-surface-variant mt-4 text-center">Ambwere Plaza, Kitale Town</p>
 				</div>
-				
-				<div class="space-y-1">
-					<label for="email" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Email Address</label>
-					<input 
-						id="email"
-						name="email"
-						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" 
-						placeholder="john@example.com" 
-						type="email"
-					/>
-				</div>
-				
-				<div class="space-y-1">
-					<label for="date" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Preferred Date</label>
-					<input 
-						id="date"
-						name="date"
-						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none" 
-						type="date"
-					/>
-				</div>
-				
-				<div class="space-y-1 md:col-span-2">
-					<label for="service" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Service Required</label>
-					<select id="service" name="service" class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none">
-						<option>General Consultation</option>
-						<option>Dialysis Services</option>
-						<option>Maternity Care</option>
-						<option>Emergency Care</option>
-						<option>Laboratory Tests</option>
-						<option>Other</option>
-					</select>
-				</div>
-				
-				<div class="space-y-1 md:col-span-2">
-					<label for="notes" class="text-xs font-bold text-outline uppercase tracking-widest px-1">Additional Notes</label>
-					<textarea 
-						id="notes"
-						name="notes"
-						class="w-full bg-surface-container-low border-none rounded-xl py-3 px-4 focus:ring-2 focus:ring-primary/40 transition-all outline-none resize-none" 
-						placeholder="Any specific concerns or requirements..." 
-						rows="3"
-					></textarea>
-				</div>
-				
-				<div class="md:col-span-2">
-					<button 
-						class="w-full bg-primary text-white py-4 rounded-xl font-headline font-bold text-lg hover:bg-primary/90 transition-all shadow-lg active:scale-95" 
-						type="submit"
-					>
-						Book Appointment
-					</button>
-				</div>
-			</form>
+			</div>
 		</div>
 		
 		<div class="mt-8 text-center">
 			<p class="text-white/80 text-sm mb-2">For urgent matters, call us directly</p>
-			<a href="tel:+254202717077" class="text-white font-headline font-bold text-2xl hover:text-primary-fixed transition-colors">
-				+254-20-2717077
+			<a href="tel:+254718009458" class="text-white font-headline font-bold text-2xl hover:text-primary-fixed transition-colors">
+				0718 009 458
 			</a>
 		</div>
 	</div>

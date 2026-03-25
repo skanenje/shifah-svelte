@@ -5,31 +5,18 @@
 
 	const navLinks = [
 		{ label: 'Home', href: '/' },
-		{ label: 'Services', href: '/services' },
-		{ label: 'Facilities', href: '/services' },
-		{ label: 'Contact', href: '/contact' },
-		{ label: 'Location', href: '/contact' }
+		{ label: 'Services / Facilities', href: '/services' },
+		{ label: 'Contact / Location', href: '/contact' }
 	];
 
-	function isActive(href: string, label: string) {
+	function isActive(href: string) {
 		const currentPath = page.url.pathname;
 		
-		// Home page - only highlight "Home"
-		if (currentPath === '/') {
-			return href === '/' && label === 'Home';
-		}
+		// Exact match for home
+		if (href === '/') return currentPath === '/';
 		
-		// Services page - highlight both "Services" and "Facilities"
-		if (currentPath === '/services') {
-			return href === '/services' && (label === 'Services' || label === 'Facilities');
-		}
-		
-		// Contact page - highlight both "Contact" and "Location"
-		if (currentPath === '/contact') {
-			return href === '/contact' && (label === 'Contact' || label === 'Location');
-		}
-		
-		return false;
+		// For other pages, check if current path starts with href
+		return currentPath.startsWith(href);
 	}
 </script>
 
@@ -45,7 +32,7 @@
 			{#each navLinks as link}
 				<a
 					href={link.href}
-					class="transition-colors duration-200 pb-1 {isActive(link.href, link.label)
+					class="transition-colors duration-200 pb-1 {isActive(link.href)
 						? 'text-primary-container border-b-2 border-primary-container'
 						: 'text-slate-600 hover:text-primary-container'}"
 				>
@@ -79,7 +66,7 @@
 				<a
 					href={link.href}
 					onclick={() => (isOpen = false)}
-					class="block font-headline font-semibold py-2 transition-colors {isActive(link.href, link.label)
+					class="block font-headline font-semibold py-2 transition-colors {isActive(link.href)
 						? 'text-primary-container'
 						: 'text-slate-600 hover:text-primary-container'}"
 				>
