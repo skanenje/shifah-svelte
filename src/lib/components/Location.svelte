@@ -41,7 +41,7 @@
 				<div class="bg-surface-container-low p-8 rounded-xl">
 					<span class="material-symbols-outlined text-primary mb-4" style="font-variation-settings: 'FILL' 1;">call</span>
 					<h4 class="font-headline font-bold text-lg mb-2">Main Hospital</h4>
-					<p class="text-sm text-on-surface-variant font-medium">0718 009 458</p>
+					<p class="text-sm text-on-surface-variant font-medium">0718 009 484</p>
 					<p class="text-xs text-outline mt-1">24/7 Emergency & Dialysis</p>
 				</div>
 				<div class="bg-surface-container-low p-8 rounded-xl">
@@ -100,7 +100,7 @@
 						href="tel:+254718009458"
 					>
 						<span class="material-symbols-outlined">emergency</span>
-						0718 009 458
+						0718 009 484
 					</a>
 					<p class="text-xs text-on-surface-variant">Main Hospital - 24/7 Service</p>
 				</div>

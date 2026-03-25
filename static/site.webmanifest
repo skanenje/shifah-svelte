@@ -1,0 +1,21 @@
+{
+  "name": "Shifah Hospital & Dialysis Center",
+  "short_name": "Shifah Hospital",
+  "description": "Quality Healthcare in Kitale - Dialysis, Maternity, Emergency Care",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#0c6574",
+  "background_color": "#fcf9f8",
+  "display": "standalone",
+  "start_url": "/"
+}
