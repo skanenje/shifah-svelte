@@ -6,7 +6,7 @@
 			<div class="space-y-2">
 				<p class="text-xs font-bold text-primary-container">MAIN HOSPITAL</p>
 				<p class="text-slate-500 text-xs">Opposite Makunga Sec School<br/>Kitale-Kapenguria road</p>
-				<p class="text-slate-500 text-xs font-medium">📞 0718 009 458</p>
+				<p class="text-slate-500 text-xs font-medium">📞 0718 009 484</p>
 			</div>
 		</div>
 		
@@ -29,7 +29,7 @@
 		<div>
 			<h5 class="font-bold text-primary-container mb-4">Contact</h5>
 			<p class="text-slate-500 text-xs mb-3">📧 info@shifahhospitalktl.co.ke</p>
-			<p class="text-slate-500 text-xs mb-3">📧 shifahhospitalannexlimited@gmail.com</p>
+			<p class="text-slate-500 text-xs mb-3">📧 annex@shifahhospital.co.ke</p>
 			<div class="flex gap-3 mt-4">
 				<!-- svelte-ignore a11y_invalid_attribute -->
 				<a href="#" class="w-8 h-8 rounded-full bg-primary-container/10 flex items-center justify-center hover:bg-primary-container/20 transition-colors">
@@ -40,6 +40,6 @@
 	</div>
 	
 	<div class="max-w-7xl mx-auto mt-12 pt-8 border-t border-outline-variant/15 text-center text-slate-500">
-		© 2024 Shifah Hospital and Dialysis Center. All rights reserved.
+		© 2026 Shifah Hospital and Dialysis Center. All rights reserved.
 	</div>
 </footer>

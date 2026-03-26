@@ -6,7 +6,7 @@
 				Our Legacy
 			</span>
 			<h2 class="text-4xl md:text-5xl font-headline font-extrabold text-primary mb-6 leading-tight">
-				Pioneering Healthcare in Trans Nzoia Since 2016
+				Pioneering Healthcare in Trans-Nzoia Since 2016
 			</h2>
 			<p class="text-on-surface-variant text-lg leading-relaxed mb-6">
 				Shifah Hospital and Dialysis Center has been at the forefront of providing exceptional medical care to the communities of Kitale and beyond. Our commitment to excellence, compassion, and innovation drives everything we do.
@@ -20,7 +20,7 @@
 						<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">verified</span>
 					</div>
 					<div>
-						<p class="font-headline font-bold text-primary">NHIF Accredited</p>
+						<p class="font-headline font-bold text-primary">SHA Accredited</p>
 						<p class="text-xs text-on-surface-variant">Fully licensed facility</p>
 					</div>
 				</div>
