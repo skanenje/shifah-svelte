@@ -56,7 +56,7 @@
 		<div class="bg-surface-container-low p-8 rounded-xl">
 			<span class="material-symbols-outlined text-primary text-4xl mb-6">surgical</span>
 			<h3 class="text-xl font-headline font-bold mb-2">Theatre Services</h3>
-			<p class="text-on-surface-variant text-sm mb-4">Major & minor surgery with modern surgical facilities and experienced surgical team.</p>
+			<p class="text-on-surface-variant text-sm mb-4">Minor surgery with modern surgical facilities and experienced surgical team.</p>
 		</div>
 	</div>
 
@@ -65,12 +65,12 @@
 		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
 			<span class="material-symbols-outlined text-primary mb-4">biotech</span>
 			<h4 class="font-headline font-bold mb-2">Laboratory</h4>
-			<p class="text-xs text-on-surface-variant">Comprehensive lab testing and cancer screening services.</p>
+			<p class="text-xs text-on-surface-variant">Comprehensive lab testing services.</p>
 		</div>
 		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
 			<span class="material-symbols-outlined text-primary mb-4">radiology</span>
 			<h4 class="font-headline font-bold mb-2">Imaging</h4>
-			<p class="text-xs text-on-surface-variant">X-ray, MRI, Ultrasound imaging services available.</p>
+			<p class="text-xs text-on-surface-variant">Ultrasound imaging services available.</p>
 		</div>
 		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
 			<span class="material-symbols-outlined text-primary mb-4">self_improvement</span>
