@@ -15,7 +15,7 @@
 			<img 
 				alt="Hospital Interior" 
 				class="absolute inset-0 w-full h-full object-cover opacity-30" 
-				src="https://lh3.googleusercontent.com/aida-public/AB6AXuCPGRIJsaEeweJJBKmpsks2ABbLOEATHJv8rB_I9T5_eg13jUird5rIw5_kCDeztM8exZO_vInlqGBZKfqH1TUnzSMlW-r1VV3E1t2IBlzKOXfK_L40_TiRtEGAGo6NAEf_n5U9AI6p9NnE-0pwFVqvql_grHh011QXNzNetdLHVqBHx_2Rk2fjb-H4T6Dljj07-LK9FCrREFSp4_bfLJ_U-ooEfpP8hCg9iBV9UlHOUe9uMYmiDR3qFjRMwgNwnI0kCxcSg18Z_hON"
+				src="/photos/hallway.jpeg"
 			/>
 			<div class="relative z-10 max-w-2xl">
 				<span class="inline-block px-4 py-1 rounded-full bg-secondary-fixed text-on-secondary-fixed text-xs font-bold tracking-widest mb-6 font-label">

@@ -40,7 +40,7 @@
 		<div class="lg:col-span-5 relative">
 			<div class="relative rounded-[2.5rem] overflow-hidden aspect-4/5 shadow-2xl">
 				<img
-					src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5uBfvegGulJDamUn_aUEjFLqJVnLo_LCfc2XuUeMQhF9knzWJMY4p1fM5-nQFeRO6dHqQAKb9aGAPtKBPpKPbhmh-BxF6mv3SATlHPZdUcUSX_K9jJQ5m9F5pJxmlM4TrmZBV0DEavyRf5COFVo690Y5wjfyOcnDVq8z8ik4uBMSl-XrIoJAP0rshXfSExJlw4kho-6xVKTu8QQH1kcOPh6YRl5gPk8TrcuWly_gSQWPL4Fwjhgv1zdHnq-ZGsReT6-yDdNzIzHP_"
+					src="/photos/waiting-area-view2.jpeg"
 					alt="Modern hospital lobby with warm natural lighting"
 					class="w-full h-full object-cover"
 					loading="eager"

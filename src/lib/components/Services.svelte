@@ -11,7 +11,7 @@
 				<img 
 					alt="Dialysis Machine" 
 					class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
-					src="https://lh3.googleusercontent.com/aida-public/AB6AXuDj79cBsAPIU0I3JuSXmoK18FLF9WHTSGt3Aoua1MLtK0JU-GScixXMG4dwrbgtl_-0wRseYMTIseGshfn0GWXhfdBq0qPh1oY7fG3EUixt12nngo7bqWvaZ_C3Rahzx3r6UpBP7OxWUVMHRewLjotDEZZ4TVC3LcFPgd3WGoxkSk9LUsC4sHOV_Rl6G7gO6Ir2gvt2dS7wVgrXVTN8QkD2BGy8LO_JOoXIR0JlearewYxblwoK9zl_M6GRYuKO62Bq4MGjeV44cMks"
+					src="/photos/lab-table.jpeg"
 					loading="lazy"
 					width="800"
 					height="256"

@@ -3,7 +3,7 @@
 	<div class="absolute inset-0 opacity-10">
 		<img 
 			class="w-full h-full object-cover"
-			src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzNyBhYwwehtWYNDICC-81YsRrsE6mAxmwdOI32QURsiFYYYdYADwmel_oWS3xylwmG0R1fdwBpldrXkPBdKwmto3BhqJZzUu1oowaIBVuQ9MyERvUvJY90uEByFu-PPgI-mHsHg9Xz4B_JMaLgcvS2soB8DnvjeDJFpTE3PvdDNYtC_arnJm_4AwVSA1tYlEvqfMftD5dLM-9bEtqhxao8ofyoB1dEj4h6gsmIABFZXTnIW-E82sCAaXthO5RHYSLbjgyDzF_TOqj"
+			src="/photos/laboratory.jpeg"
 			alt="Medical technology background"
 		/>
 	</div>

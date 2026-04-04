@@ -7,7 +7,7 @@
 				<img 
 					class="w-full h-full object-cover map-grayscale transition-transform duration-700 group-hover:scale-105" 
 					alt="Map of Kitale showing hospital location"
-					src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOFAWT5bSge5PW00PMBbzRARcAfnSZXcMqwaoCor76OnjeCw9J4DiBDqOAG56XaRnVfBbaJrNzVgL6w7pqO2BX-UeQIlnPqWNQ3YJ03OT1prElA5-JzmVv07sLQrj5GlMTYIoAmrqdeUB0LKhVZ1SFBqz-ZRHsWhLV95JDrIeBdcwzBhoW7OZbJvgWj2EyTKzjBj7eFRx74bfB1NUK63oPKk-KGKiEyHX27r1Mdvg2WB0bFDoH6IeQILDHdIjGE5KRA5of1P7lMKeB"
+					src="/photos/triage-entrance-view.jpeg"
 				/>
 				
 				<!-- Map Overlay Label -->
