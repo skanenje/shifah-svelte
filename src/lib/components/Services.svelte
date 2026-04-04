@@ -9,9 +9,9 @@
 		<div class="md:col-span-2 row-span-2 group bg-surface-container-lowest rounded-xl overflow-hidden transition-all hover:bg-white">
 			<div class="h-64 relative overflow-hidden">
 				<img 
-					alt="Dialysis Machine" 
+					alt="Shifah Hospital Renal Dialysis Unit" 
 					class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
-					src="/photos/lab-table.jpeg"
+					src="/photos/renal-unit.jpeg"
 					loading="lazy"
 					width="800"
 					height="256"
@@ -97,27 +97,76 @@
 			</div>
 		</div>
 
-		<!-- Laboratory -->
-		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
-			<span class="material-symbols-outlined text-primary mb-4">biotech</span>
-			<h4 class="font-headline font-bold mb-2">Laboratory</h4>
-			<p class="text-xs text-on-surface-variant">Comprehensive lab testing services.</p>
+		<!-- Laboratory - Image Card -->
+		<div class="relative rounded-xl overflow-hidden min-h-[200px] flex items-end group">
+			<img
+				alt="Shifah Hospital Laboratory"
+				class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+				src="/photos/lab-view1.jpeg"
+				loading="lazy"
+				width="400"
+				height="200"
+			/>
+			<div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
+			<div class="relative z-10 p-6 text-white">
+				<span class="material-symbols-outlined mb-2 text-2xl" style="font-variation-settings: 'FILL' 1;">biotech</span>
+				<h4 class="font-headline font-bold text-lg mb-1">Laboratory</h4>
+				<p class="text-xs text-white/80">Comprehensive diagnostic and clinical lab testing services.</p>
+			</div>
 		</div>
 
-		<!-- Imaging -->
-		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
-			<span class="material-symbols-outlined text-primary mb-4">radiology</span>
-			<h4 class="font-headline font-bold mb-2">Imaging</h4>
-			<p class="text-xs text-on-surface-variant">Ultrasound imaging services available.</p>
+		<!-- Imaging - Image Card -->
+		<div class="relative rounded-xl overflow-hidden min-h-[200px] flex items-end group">
+			<img
+				alt="Shifah Hospital Imaging Department"
+				class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+				src="/photos/lab-view2.jpeg"
+				loading="lazy"
+				width="400"
+				height="200"
+			/>
+			<div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
+			<div class="relative z-10 p-6 text-white">
+				<span class="material-symbols-outlined mb-2 text-2xl" style="font-variation-settings: 'FILL' 1;">radiology</span>
+				<h4 class="font-headline font-bold text-lg mb-1">Imaging</h4>
+				<p class="text-xs text-white/80">Ultrasound and diagnostic imaging services.</p>
+			</div>
 		</div>
 	</div>
 
-	<!-- Physiotherapy card row -->
-	<div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6">
-		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
-			<span class="material-symbols-outlined text-primary mb-4">self_improvement</span>
-			<h4 class="font-headline font-bold mb-2">Physiotherapy</h4>
-			<p class="text-xs text-on-surface-variant">Physical therapy and rehabilitation services.</p>
+	<!-- Physiotherapy - Full-width Image Card -->
+	<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+		<div class="md:col-span-2 relative rounded-xl overflow-hidden min-h-[220px] flex items-end group">
+			<img
+				alt="Shifah Hospital Physiotherapy Entrance"
+				class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+				src="/photos/physio-entrance.jpeg"
+				loading="lazy"
+				width="800"
+				height="220"
+			/>
+			<div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/30 to-transparent"></div>
+			<div class="relative z-10 p-8 text-white">
+				<span class="material-symbols-outlined mb-2 text-3xl" style="font-variation-settings: 'FILL' 1;">self_improvement</span>
+				<h4 class="font-headline font-bold text-xl mb-1">Physiotherapy & Rehabilitation</h4>
+				<p class="text-sm text-white/80 max-w-md">Professional physical therapy, rehabilitation programs, and pain management services to support recovery and mobility.</p>
+			</div>
+		</div>
+		<div class="relative rounded-xl overflow-hidden min-h-[220px] flex items-end group">
+			<img
+				alt="Shifah Hospital Triage"
+				class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+				src="/photos/triage-view2.jpeg"
+				loading="lazy"
+				width="400"
+				height="220"
+			/>
+			<div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
+			<div class="relative z-10 p-6 text-white">
+				<span class="material-symbols-outlined mb-2 text-2xl" style="font-variation-settings: 'FILL' 1;">emergency</span>
+				<h4 class="font-headline font-bold text-lg mb-1">Emergency & Triage</h4>
+				<p class="text-xs text-white/80">24/7 emergency assessment and critical care response.</p>
+			</div>
 		</div>
 	</div>
 	

@@ -39,8 +39,8 @@
 		<div class="relative">
 			<div class="rounded-4xl overflow-hidden shadow-2xl">
 				<img 
-					src="/photos/hallway.jpeg"
-					alt="Hospital hallway with modern facilities"
+					src="/photos/main-hosi-entrance.jpeg"
+					alt="Shifah Hospital Main Entrance"
 					class="w-full h-full object-cover"
 				/>
 			</div>
