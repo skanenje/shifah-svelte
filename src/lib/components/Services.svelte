@@ -60,27 +60,64 @@
 		</div>
 	</div>
 
-	<!-- Smaller Service Cards -->
+	<!-- Pharmacy Featured + Smaller Service Cards -->
 	<div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6">
+		<!-- Pharmacy - Featured with Image -->
+		<div class="md:col-span-2 group bg-surface-container-lowest rounded-xl overflow-hidden transition-all hover:bg-white">
+			<div class="grid grid-cols-1 sm:grid-cols-2 h-full">
+				<div class="h-48 sm:h-full relative overflow-hidden">
+					<img 
+						alt="Shifah Hospital In-house Pharmacy" 
+						class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" 
+						src="/photos/pharmacy.jpeg"
+						loading="lazy"
+						width="400"
+						height="256"
+					/>
+					<div class="absolute top-3 left-3">
+						<span class="bg-primary text-white px-3 py-1 rounded-full text-xs font-bold">24/7</span>
+					</div>
+				</div>
+				<div class="p-6 flex flex-col justify-center">
+					<span class="material-symbols-outlined text-primary text-3xl mb-3" style="font-variation-settings: 'FILL' 1;">medication</span>
+					<h4 class="font-headline font-bold text-lg mb-2">In-House Pharmacy</h4>
+					<p class="text-sm text-on-surface-variant leading-relaxed mb-4">Round-the-clock pharmacy stocked with essential medications, prescription drugs, and pharmaceutical care services.</p>
+					<ul class="space-y-1.5 text-xs font-medium">
+						<li class="flex items-center gap-1.5">
+							<span class="material-symbols-outlined text-primary" style="font-size: 14px;">check_circle</span> Prescription Filling
+						</li>
+						<li class="flex items-center gap-1.5">
+							<span class="material-symbols-outlined text-primary" style="font-size: 14px;">check_circle</span> Essential Medicines
+						</li>
+						<li class="flex items-center gap-1.5">
+							<span class="material-symbols-outlined text-primary" style="font-size: 14px;">check_circle</span> Patient Counselling
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Laboratory -->
 		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
 			<span class="material-symbols-outlined text-primary mb-4">biotech</span>
 			<h4 class="font-headline font-bold mb-2">Laboratory</h4>
 			<p class="text-xs text-on-surface-variant">Comprehensive lab testing services.</p>
 		</div>
+
+		<!-- Imaging -->
 		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
 			<span class="material-symbols-outlined text-primary mb-4">radiology</span>
 			<h4 class="font-headline font-bold mb-2">Imaging</h4>
 			<p class="text-xs text-on-surface-variant">Ultrasound imaging services available.</p>
 		</div>
+	</div>
+
+	<!-- Physiotherapy card row -->
+	<div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-6">
 		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
 			<span class="material-symbols-outlined text-primary mb-4">self_improvement</span>
 			<h4 class="font-headline font-bold mb-2">Physiotherapy</h4>
 			<p class="text-xs text-on-surface-variant">Physical therapy and rehabilitation services.</p>
-		</div>
-		<div class="bg-surface-container-lowest p-6 rounded-xl transition-all hover:bg-white">
-			<span class="material-symbols-outlined text-primary mb-4">medication</span>
-			<h4 class="font-headline font-bold mb-2">Pharmacy</h4>
-			<p class="text-xs text-on-surface-variant">24-hour in-house pharmacy with essential medications.</p>
 		</div>
 	</div>
 	

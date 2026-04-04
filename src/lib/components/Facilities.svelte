@@ -217,7 +217,7 @@
 		</div>
 
 		<!-- Facility Images Grid -->
-		<div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+		<div class="grid grid-cols-2 md:grid-cols-5 gap-4">
 			<div class="rounded-xl overflow-hidden h-48">
 				<img 
 					alt="Patient Room" 
@@ -240,7 +240,7 @@
 			</div>
 			<div class="rounded-xl overflow-hidden h-48">
 				<img 
-					alt="Operating Theatre" 
+					alt="Laboratory" 
 					class="w-full h-full object-cover" 
 					src="/photos/lab-view2.jpeg"
 					loading="lazy"
@@ -250,9 +250,19 @@
 			</div>
 			<div class="rounded-xl overflow-hidden h-48">
 				<img 
-					alt="Reception" 
+					alt="Reception Area" 
 					class="w-full h-full object-cover" 
 					src="/photos/waiting-area2.jpeg"
+					loading="lazy"
+					width="400"
+					height="192"
+				/>
+			</div>
+			<div class="rounded-xl overflow-hidden h-48 col-span-2 md:col-span-1">
+				<img 
+					alt="In-house Pharmacy" 
+					class="w-full h-full object-cover" 
+					src="/photos/pharmacy.jpeg"
 					loading="lazy"
 					width="400"
 					height="192"
