@@ -45,7 +45,7 @@
 		<!-- CTA + Mobile Toggle -->
 		<div class="flex items-center gap-4">
 			<a
-				href="#contact"
+				href="tel:+254718009458"
 				class="bg-linear-to-r from-primary to-primary-container text-on-primary px-6 py-2.5 rounded-xl font-headline font-bold text-sm hover:opacity-90 transition-all active:scale-95"
 			>
 				Book Appointment
