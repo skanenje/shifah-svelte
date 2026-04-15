@@ -14,21 +14,18 @@
 				<div class="absolute top-6 left-6 p-6 bg-white/90 backdrop-blur-md rounded-xl shadow-2xl max-w-xs">
 					<h3 class="font-headline font-bold text-primary text-xl mb-2">Main Hospital</h3>
 					<p class="text-sm text-on-surface-variant leading-relaxed">Opposite Makunga Sec School, Kitale-Kapenguria road</p>
-					<div class="mt-4 flex items-center gap-2 text-primary font-bold text-sm group-hover:gap-4 transition-all cursor-pointer">
+					<a
+						href="https://www.google.com/maps/search/?api=1&query=Shifah+Hospital+and+Dialysis+Center+Kitale"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="mt-4 inline-flex items-center gap-2 text-primary font-bold text-sm group-hover:gap-4 transition-all"
+					>
 						<span>Get directions</span>
 						<span class="material-symbols-outlined text-sm">arrow_forward</span>
-					</div>
+					</a>
 				</div>
 				
-				<!-- Map Pin -->
-				<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-					<div class="relative flex items-center justify-center">
-						<div class="absolute w-12 h-12 bg-primary/20 rounded-full animate-ping"></div>
-						<div class="w-8 h-8 bg-primary rounded-full border-4 border-white flex items-center justify-center shadow-xl">
-							<span class="material-symbols-outlined text-white text-sm" style="font-variation-settings: 'FILL' 1;">local_hospital</span>
-						</div>
-					</div>
-				</div>
+
 			</div>
 			
 			<!-- Operating Hours & Features -->
