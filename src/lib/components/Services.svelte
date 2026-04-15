@@ -102,7 +102,7 @@
 			<img
 				alt="Shifah Hospital Laboratory"
 				class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-				src="/photos/lab-view1.jpeg"
+				src="/photos/nursesuingmicroscope.png"
 				loading="lazy"
 				width="400"
 				height="200"
@@ -118,9 +118,9 @@
 		<!-- Imaging - Image Card -->
 		<div class="relative rounded-xl overflow-hidden min-h-[200px] flex items-end group">
 			<img
-				alt="Shifah Hospital Imaging Department"
+				alt="Shifah Hospital Ultrasound & Imaging Department"
 				class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-				src="/photos/lab-view2.jpeg"
+				src="/photos/ultrasound.png"
 				loading="lazy"
 				width="400"
 				height="200"
@@ -138,9 +138,9 @@
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
 		<div class="md:col-span-2 relative rounded-xl overflow-hidden min-h-[220px] flex items-end group">
 			<img
-				alt="Shifah Hospital Physiotherapy Entrance"
+				alt="Shifah Hospital Physiotherapy & Rehabilitation"
 				class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-				src="/photos/physio-entrance.jpeg"
+				src="/photos/physiotherapy.png"
 				loading="lazy"
 				width="800"
 				height="220"

@@ -240,9 +240,9 @@
 			</div>
 			<div class="rounded-xl overflow-hidden h-48">
 				<img 
-					alt="Laboratory" 
+					alt="Laboratory Work Area" 
 					class="w-full h-full object-cover" 
-					src="/photos/lab-view2.jpeg"
+					src="/photos/lab-table.jpeg"
 					loading="lazy"
 					width="400"
 					height="192"
@@ -250,9 +250,9 @@
 			</div>
 			<div class="rounded-xl overflow-hidden h-48">
 				<img 
-					alt="Reception Area" 
+					alt="Patient Waiting Area" 
 					class="w-full h-full object-cover" 
-					src="/photos/waiting-area2.jpeg"
+					src="/photos/wating-area.jpeg"
 					loading="lazy"
 					width="400"
 					height="192"
