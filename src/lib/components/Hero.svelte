@@ -22,13 +22,13 @@
 			</p>
 			<div class="flex flex-wrap gap-4">
 				<a
-					href="#contact"
+					href="tel:+254718009458"
 					class="bg-linear-to-r from-primary to-primary-container text-on-primary px-8 py-4 rounded-xl font-headline font-bold text-lg shadow-xl shadow-primary/10 hover:shadow-primary/20 transition-all active:scale-95"
 				>
 					Book a Consultation
 				</a>
 				<a
-					href="#services"
+					href="/services"
 					class="bg-surface-container-highest text-on-surface px-8 py-4 rounded-xl font-headline font-bold text-lg hover:bg-surface-container-high transition-all"
 				>
 					Our Services
